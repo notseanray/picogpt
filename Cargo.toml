@@ -1,0 +1,10 @@
+[package]
+name = "picogpt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn = { version = "0.12.1", features = ["wgpu", "train", "tch"] }
+derive-new = "0.6.0"
+rand = "0.8.5"
+rayon = "1.10.0"
